@@ -1,0 +1,62 @@
+2024-06-08 23:48:03,895 [INFO] Model loaded from the checkpoint
+2024-06-08 23:48:04,035 [INFO] Size (MB):22.72819232940674
+2024-06-08 23:48:04,088 [INFO] Size (MB):7.473248481750488
+2024-06-08 23:49:07,567 [INFO] Validation accuracy (k=1): 0.8832116788321168 Time elapsed: 31.59856414794922 seconds
+2024-06-08 23:49:07,567 [INFO] Validation accuracy (k=5): 0.9890510948905109
+2024-06-08 23:50:27,338 [INFO] Quantized Validation accuracy (k=1): 0.8845802919708029 Time elapsed: 40.2199981212616
+2024-06-08 23:50:27,339 [INFO] Quantized Validation accuracy (k=5): 0.9890510948905109
+2024-06-08 23:51:36,223 [INFO] Validation accuracy (k=1): 0.8832116788321168 Time elapsed: 32.375322580337524 seconds
+2024-06-08 23:51:36,223 [INFO] Validation accuracy (k=5): 0.9890510948905109
+2024-06-08 23:51:36,760 [WARNING] Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+2024-06-08 23:51:36,909 [INFO] Quantization parameters for tensor:"/Add_output_0" not specified
+2024-06-08 23:51:36,914 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.0/self_attn/Reshape_6_output_0" not specified
+2024-06-08 23:51:36,917 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.0/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:36,941 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.0/Relu_output_0" not specified
+2024-06-08 23:51:36,960 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.0/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:36,966 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.1/self_attn/Reshape_6_output_0" not specified
+2024-06-08 23:51:36,968 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.1/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:36,988 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.1/Relu_output_0" not specified
+2024-06-08 23:51:37,010 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.1/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,019 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.2/self_attn/Reshape_6_output_0" not specified
+2024-06-08 23:51:37,021 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.2/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,040 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.2/Relu_output_0" not specified
+2024-06-08 23:51:37,063 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.2/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,070 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.3/self_attn/Reshape_6_output_0" not specified
+2024-06-08 23:51:37,072 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.3/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,091 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.3/Relu_output_0" not specified
+2024-06-08 23:51:37,110 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.3/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,115 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.4/self_attn/Reshape_6_output_0" not specified
+2024-06-08 23:51:37,118 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.4/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,137 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.4/Relu_output_0" not specified
+2024-06-08 23:51:37,156 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.4/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,163 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.5/self_attn/Reshape_6_output_0" not specified
+2024-06-08 23:51:37,164 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.5/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,183 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.5/Relu_output_0" not specified
+2024-06-08 23:51:37,202 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,205 [INFO] Quantization parameters for tensor:"/transformer/encoder/norm/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,210 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/multihead_attn/Reshape_3_output_0" not specified
+2024-06-08 23:51:37,213 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,238 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/Relu_output_0" not specified
+2024-06-08 23:51:37,258 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.1/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,264 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.1/multihead_attn/Reshape_3_output_0" not specified
+2024-06-08 23:51:37,266 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.1/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,285 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.1/Relu_output_0" not specified
+2024-06-08 23:51:37,305 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.2/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,312 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.2/multihead_attn/Reshape_3_output_0" not specified
+2024-06-08 23:51:37,315 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.2/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,335 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.2/Relu_output_0" not specified
+2024-06-08 23:51:37,356 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.3/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,364 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.3/multihead_attn/Reshape_3_output_0" not specified
+2024-06-08 23:51:37,366 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.3/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,387 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.3/Relu_output_0" not specified
+2024-06-08 23:51:37,408 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.4/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,416 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.4/multihead_attn/Reshape_3_output_0" not specified
+2024-06-08 23:51:37,418 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.4/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,439 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.4/Relu_output_0" not specified
+2024-06-08 23:51:37,459 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.5/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,471 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.5/multihead_attn/Reshape_3_output_0" not specified
+2024-06-08 23:51:37,473 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.5/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:51:37,494 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.5/Relu_output_0" not specified
+2024-06-08 23:51:37,513 [INFO] Quantization parameters for tensor:"/Transpose_output_0" not specified
+2024-06-08 23:51:46,730 [INFO] Quantized ONNX validation accuracy (k=1): 0.8795620437956204 Time elapsed: 8.997825384140015 seconds
+2024-06-08 23:51:55,356 [INFO] Quantized ONNX validation accuracy (k=5): 0.988594890510949

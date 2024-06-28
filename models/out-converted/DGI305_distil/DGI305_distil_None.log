@@ -1,0 +1,22 @@
+2024-06-08 23:42:54,072 [INFO] Model loaded from the checkpoint
+2024-06-08 23:42:54,103 [INFO] Size (MB):3.8024826049804688
+2024-06-08 23:42:54,113 [INFO] Size (MB):1.2681808471679688
+2024-06-08 23:42:54,568 [INFO] Validation accuracy (k=1): 0.5384615384615384 Time elapsed: 0.221299409866333 seconds
+2024-06-08 23:42:54,568 [INFO] Validation accuracy (k=5): 0.8547008547008547
+2024-06-08 23:42:55,274 [INFO] Quantized Validation accuracy (k=1): 0.5384615384615384 Time elapsed: 0.3588104248046875
+2024-06-08 23:42:55,274 [INFO] Quantized Validation accuracy (k=5): 0.8547008547008547
+2024-06-08 23:42:56,054 [INFO] Validation accuracy (k=1): 0.5384615384615384 Time elapsed: 0.22319269180297852 seconds
+2024-06-08 23:42:56,054 [INFO] Validation accuracy (k=5): 0.8547008547008547
+2024-06-08 23:42:56,290 [WARNING] Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+2024-06-08 23:42:56,292 [INFO] Quantization parameters for tensor:"/Add_output_0" not specified
+2024-06-08 23:42:56,299 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.0/self_attn/Reshape_6_output_0" not specified
+2024-06-08 23:42:56,302 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.0/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:42:56,322 [INFO] Quantization parameters for tensor:"/transformer/encoder/layers.0/Relu_output_0" not specified
+2024-06-08 23:42:56,340 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/norm1/LayerNormalization_output_0" not specified
+2024-06-08 23:42:56,342 [INFO] Quantization parameters for tensor:"/transformer/encoder/norm/LayerNormalization_output_0" not specified
+2024-06-08 23:42:56,345 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/multihead_attn/Reshape_3_output_0" not specified
+2024-06-08 23:42:56,347 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/norm2/LayerNormalization_output_0" not specified
+2024-06-08 23:42:56,367 [INFO] Quantization parameters for tensor:"/transformer/decoder/layers.0/Relu_output_0" not specified
+2024-06-08 23:42:56,387 [INFO] Quantization parameters for tensor:"/Transpose_output_0" not specified
+2024-06-08 23:42:56,632 [INFO] Quantized ONNX validation accuracy (k=1): 0.5213675213675214 Time elapsed: 0.21435785293579102 seconds
+2024-06-08 23:42:56,812 [INFO] Quantized ONNX validation accuracy (k=5): 0.8717948717948718

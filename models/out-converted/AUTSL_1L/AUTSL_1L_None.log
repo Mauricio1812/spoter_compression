@@ -1,0 +1,13 @@
+2024-06-08 23:47:05,230 [INFO] Model loaded from the checkpoint
+2024-06-08 23:47:05,266 [INFO] Size (MB):3.9005661010742188
+2024-06-08 23:47:05,281 [INFO] Size (MB):1.2933273315429688
+2024-06-08 23:47:16,521 [INFO] Validation accuracy (k=1): 0.8718065693430657 Time elapsed: 5.723066568374634 seconds
+2024-06-08 23:47:16,521 [INFO] Validation accuracy (k=5): 0.9849452554744526
+2024-06-08 23:47:29,757 [INFO] Quantized Validation accuracy (k=1): 0.8722627737226277 Time elapsed: 6.5906431674957275
+2024-06-08 23:47:29,758 [INFO] Quantized Validation accuracy (k=5): 0.9849452554744526
+
+2024-06-08 23:47:41,299 [INFO] Validation accuracy (k=1): 0.8718065693430657 Time elapsed: 5.641318321228027 seconds
+2024-06-08 23:47:41,305 [INFO] Validation accuracy (k=5): 0.9849452554744526
+2024-06-08 23:47:41,559 [WARNING] Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+2024-06-08 23:47:43,733 [INFO] Quantized ONNX validation accuracy (k=1): 0.8727189781021898 Time elapsed: 2.044116258621216 seconds
+2024-06-08 23:47:45,727 [INFO] Quantized ONNX validation accuracy (k=5): 0.9858576642335767
